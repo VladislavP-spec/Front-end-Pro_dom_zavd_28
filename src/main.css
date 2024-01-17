@@ -4,7 +4,11 @@
     display: inline-block;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
-.flex {
-    display: flex;
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 50px); /* Три колонки шириною 50px кожна */
+    gap: 0; /* Відсутність відступів між елементами сітки */
 }

@@ -13,8 +13,8 @@ class Square extends React.Component {
 }
 
 Square.propTypes = {
-    value: PropTypes.oneOf(['x', 0]),
-    onClick: PropTypes.func,
+    value: PropTypes.oneOf(["X", "O", null]),
+    onClick: PropTypes.func.isRequired,
 };
 
 export default Square;
